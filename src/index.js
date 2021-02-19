@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import InputGroup from 'react-bootstrap/InputGroup';
+import {BrowserRouter,  Route, Switch} from 'react-router-dom';
+
+import './config/css/header.css';
+import EditorScreen from './screens/EditorScreen';
+import EditorPropChoose from './components/EditorPropChoose';
+import ProblemStatement from './components/ProblemStatement';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <EditorScreen />,
+  
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
