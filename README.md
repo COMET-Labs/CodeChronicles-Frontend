@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Chronicles - Frontend
 
-## Getting Started
+This is a frontend development repository of Code Chronicles for [IIITians Network](https://iiitiansnetwork.com/).
 
-First, run the development server:
+### Web-App
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Crash Course](https://www.youtube.com/watch?v=tt3PUvhOVzo&t=3s&ab_channel=codedamn)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Getting Started
 
-## Deploy on Vercel
+- Fork the repository.
+- Clone it to your machine.
+- Open your terminal/cmd in the 'Frontend/front-end-portfolio' folder
+- Run 'npm install' to install all the dependencies.
+- Run 'npm run dev' to start the development server.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- You'll need to setup your [node.js](https://nodejs.org/en/) envrionment on your local machine. [How ?](https://wsvincent.com/install-node-js-npm-windows/)
+- Install [Git](https://git-scm.com/downloads) for running git commands . [How ?](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+## Contributing Guide
+
+Please read [CONTRIBUTING.md](https://github.com/Project-COMET-IIITiansNetwork/Frontend/blob/front-end-portfolio/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
