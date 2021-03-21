@@ -13,7 +13,7 @@ This is a frontend development repository of Code Chronicles for [IIITians Netwo
 
 - Fork the repository.
 - Clone it to your machine.
-- Open your terminal/cmd in the 'Frontend/front-end-portfolio' folder
+- Open your terminal/cmd in the 'Code-Chronicles-Frontend' folder
 - Run 'npm install' to install all the dependencies.
 - Run 'npm run dev' to start the development server.
 
