@@ -1,137 +1,78 @@
-.edit_profile_page{
-    background-color: #f7f6f6;
-    padding:10px;
+.edit_profile_page {
+    background: url(backgroundimg2.jpeg);
+    background-color: rgb(217, 194, 174);
+    padding: 10px;
 }
 
-.all_content{
+.all_content {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
 }
 
-.main_heading{
+.main_heading {
     font-size: 1.5rem;
     font-weight: 700;
-    color: rgb(59, 59, 59);
+    color: rgb(7, 7, 7);
 }
 
-.main_content{
+.main_content {
     margin-top: 20px;
 }
 
-.step_selected{
-    background-color: white;
-    color: #767bfe;
-    border-left: 8px solid #767bfe;
+.step_selected {
+    background: url(bgimg.jpeg);
+    background-color: rgb(217, 194, 174);
+    color: #070707;
+    border-left: 8px solid #000000;
     height: 40px;
     cursor: pointer;
 }
 
-.step_not_selected{
-    color: gray;
+.step_not_selected {
+    color: #16110f;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     cursor: pointer;
 }
 
-.step_heading{
+.step_heading {
     text-align: center;
     padding-top: 5px;
     font-weight: 700;
     padding-left: 10px;
 }
 
-.step_content{
-    background-color: white;
-    padding:15px;
+.step_content {
+    background: url(bgimg.jpeg);
+    background-color: rgb(242, 223, 192);
+    padding: 15px;
     border-radius: 0px 10px 10px 10px;
 }
 
-.step_content_heading{
+.step_content_heading {
     font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(59, 59, 59);
+    color: rgb(0, 0, 0);
 }
-.BasicInfo_img{
+
+.BasicInfo_img {
     width: 180px;
     height: 180px;
-    border-radius: 50%;  
-}
-.BasicInfo_cameraIcon{
-     position: absolute;
-     color:#1bc47d;
-     left:150px;
-     bottom: 10px;
-     background-color: white;
-     margin-top: -15px;
-     box-shadow: 1px 1px 10px rgb(206, 206, 206);
-     border-radius: 50%;
-     width: 40px;
-     height: 40px;
-     text-align: center;
-     cursor: pointer;
-     padding-top: 5.5px;
-     transition: transform 0.2s;
-}
-.input_container{
-    margin-top: 20px;
-}
-
-.step_content_side_section{
-    height: 100%;
-}
-
-.enter_details_heading{
-    font-size: 0.8rem;
-    color: gray;
-    font-weight: 500;
-}
-
-.step_content_section_button{
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(206, 206, 206);
-    float: right;
-    width: 40px;
-    height: 40px;
-    margin-right: 12.5px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.step_content_section_button_text{
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 30px;
-    height: 30px;
-    color:#1bc47d;
-    font-size: 1rem;
-    font-weight: 700;
     border-radius: 50%;
-    border: 3px solid #1bc47d;
 }
 
-.step_content_main{
-    padding: 10px;
-    border-left: 1px solid rgb(185, 184, 184);
-}
-
-.image_grid{
-    position: relative;
-    padding-right: 10px;
-}
-
-.input_image{
-    width: 100%;
-    height: 180px;
-    border-radius: 7.5px;
-}
-
-.camera_icon{
+.BasicInfo_cameraIcon {
     position: absolute;
-    color:#1bc47d;
-    right: -10px;
+    color: #000000;
+    left: 150px;
+    bottom: 10px;
     background-color: white;
     margin-top: -15px;
-    box-shadow: 1px 1px 10px rgb(206, 206, 206);
+    box-shadow: 1px 1px 10px rgb(3, 3, 3);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -141,77 +82,148 @@
     transition: transform 0.2s;
 }
 
-.camera_icon:hover{
+.input_container {
+    margin-top: 20px;
+}
+
+.step_content_side_section {
+    height: 100%;
+}
+
+.enter_details_heading {
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.step_content_section_button {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 12.5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.step_content_section_button_text {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+.step_content_main {
+    padding: 10px;
+    border-left: 1px solid rgb(10, 10, 10);
+}
+
+.image_grid {
+    position: relative;
+    padding-right: 10px;
+}
+
+.input_image {
+    width: 100%;
+    height: 180px;
+    border-radius: 7.5px;
+}
+
+.camera_icon {
+    position: absolute;
+    color: #000000;
+    right: -10px;
+    background-color: white;
+    margin-top: -15px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 5.5px;
+    transition: transform 0.2s;
+}
+
+.camera_icon:hover {
     transform: scale(1.2);
 }
 
-.name_label{
-    color: gray;
+.name_label {
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     font-weight: 600;
     margin-top: 10px;
     margin-left: 10px;
 }
-.BasicInfo_nameInput{
+
+.BasicInfo_nameInput {
     border-radius: 10px;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     height: 50px;
     padding-left: 15px;
-     width: 100%;
+    width: 100%;
     // font-size: 25px;
-    margin-top: 10px; 
+    margin-top: 10px;
     padding: 10px;
     margin-left: 10px;
 }
-.name_input{
+
+.name_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     height: 50px;
     padding-left: 15px;
     width: 90%;
     margin-top: 10px;
 }
 
-.date_label{
-    color: gray;
+.date_label {
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     font-weight: 600;
     margin-top: 30px;
 }
 
-.description_input{
+.description_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     margin-top: 10px;
     width: 100%;
     max-width: 100%;
     padding: 15px;
 }
 
-.word_length{
-    color: rgb(150, 149, 149);
+.word_length {
+    color: rgb(0, 0, 0);
     text-align: right;
     margin-top: -35px;
     position: absolute;
     right: 15px;
 }
 
-.presently_working{
+.presently_working {
     margin-top: 10px;
     cursor: pointer;
 }
 
-.presently_working_icon{
-    color:#1bc47d;
+.presently_working_icon {
+    color: #000000;
     margin-left: 20px;
 }
 
-.previous_button{
-    color:#1bc47d;
-    border: 1.75px solid #1bc47d;
+.previous_button {
+    color: gray;
+    border: 1.75px solid gray;
     border-radius: 20px;
     text-align: center;
     height: 50px;
@@ -223,24 +235,24 @@
     cursor: pointer;
 }
 
-.add_newProfile_button_text{
-    background-color: #29AB87;
+.add_newProfile_button_text {
+    background-color: #0c0c0c;
     color: white;
     border-radius: 6px;
     text-align: center;
     height: 26px;
-    padding:10;
-    font-weight:normal;
+    padding: 10;
+    font-weight: normal;
     font-size: 1rem;
     max-width: 316px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    cursor: pointer; 
-    
+    cursor: pointer;
 }
-.save_and_next_button{
-    background-color: #1bc47d;
+
+.save_and_next_button {
+    background-color: #000000;
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -250,50 +262,55 @@
     font-size: 1.1rem;
     max-width: 250px;
     margin-left: 5px;
+    box-shadow: 3px 5px 12px rgb(3, 3, 3);
     cursor: pointer;
 }
-.socilaMedia_LinkInput{
+
+.socilaMedia_LinkInput {
     border-radius: 10px;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     height: 50px;
     padding-left: 15px;
-     width: 80%;
-    margin-top: 10px; 
+    width: 80%;
+    margin-top: 10px;
     padding: 10px;
     margin-left: 10px;
 }
-.link_input{
+
+.link_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     height: 50px;
     padding-left: 15px;
     width: 90%;
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.SocialMedia_container{
+
+.SocialMedia_container {
     margin-bottom: 10px;
     padding-left: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px rgb(206, 206, 206); 
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
-.skill_container{
+
+.skill_container {
     margin-bottom: 10px;
     padding-left: 25px;
     padding-top: 20px;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px rgb(206, 206, 206);
+    box-shadow: 1px 1px 10px rgb(5, 5, 5);
 }
 
-.add_skills_button{
+.add_skills_button {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(206, 206, 206);
+    box-shadow: 1px 1px 10px rgb(12, 12, 12);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -301,21 +318,21 @@
     cursor: pointer;
 }
 
-.add_skills_button_text{
+.add_skills_button_text {
     margin-left: 12px;
     margin-top: 12px;
     width: 25px;
     height: 25px;
-    color:#1bc47d;
+    color: #050505;
     font-size: 0.8rem;
     font-weight: bold;
     border-radius: 50%;
-    border: 3px solid #1bc47d;
+    border: 3px solid #070707;
 }
 
-.skill_input{
+.skill_input {
     max-width: 100%;
-    border: 1px solid #1bc47d;
+    border: 1px solid #070707;
     border-radius: 12.5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -326,49 +343,49 @@
 
 .skill_input:focus {
     outline: none;
-    border: 2px solid #1bc47d;
+    border: 2px solid #070707;
 }
 
-.skill_name{
+.skill_name {
     font-size: 1.5rem;
-    color: rgb(85, 85, 85);
+    color: rgb(29, 29, 29);
     margin-bottom: -5px;
 }
 
-.terms_and_conditions{
-    color:blue;
+.terms_and_conditions {
+    color: rgb(8, 8, 8);
     cursor: pointer;
     text-decoration: underline;
 }
 
-.club_card{
+.club_card {
     margin-bottom: 15px;
     margin-left: 10px;
-    padding:10px;
+    padding: 10px;
     padding-left: 30px;
     box-shadow: 1px 1px 10px rgb(206, 206, 206);
     border-radius: 15px;
 }
 
-.club_image{
+.club_image {
     border-radius: 50%;
     height: 40px;
     width: 40px;
 }
 
-.club_name{
+.club_name {
     font-size: 1.1rem;
 }
 
-.join_club{
+.join_club {
     padding-top: 5px;
     text-align: right;
     padding-right: 30px;
-    color: #767bfe;
+    color: #793232;
     cursor: pointer;
 }
 
-.join_icon{
-    color: #1bc47d;
+.join_icon {
+    color: #A52A2A;
     margin-left: 20px;
 }
