@@ -853,7 +853,7 @@ export default function editProfile(){
                                             </Col>
                                         </Row>
                                     
-                                        <Row style={{marginLeft:"10px"}}>
+                                        <Row style={{marginLeft:"0px"}}>
                                         <h3 className={styles.name_label}>Headline<span style={{color:"red"}}>*</span>
                                                 </h3>
                                                 <input
@@ -897,7 +897,7 @@ export default function editProfile(){
                                             </Col>
                                            
                                         </Row>
-                                        <Row style={{marginLeft:"10px"}}>
+                                        <Row style={{marginLeft:"0px"}}>
                                         <h3 className={styles.name_label}>Address<span style={{color:"red"}}>*</span>
                                                 </h3>
                                                 <input
