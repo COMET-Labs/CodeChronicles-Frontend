@@ -31,7 +31,7 @@
 }
 
 .step_not_selected {
-    color: #16110f;
+    color: #16110F;
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
@@ -54,12 +54,15 @@
 }
 
 .step_content_heading {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: rgb(0, 0, 0);
+    
+    font-size: 1.2rem;   
+    margin-left: 28px;
+    font-weight: 600;
+    color: #333333;
 }
 
 .BasicInfo_img {
+    margin-left: 18px;    
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -156,11 +159,12 @@
 }
 
 .name_label {
-    color: rgb(0, 0, 0);
-    font-size: 1.3rem;
+    color: #16110F;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-top: 10px;
     margin-left: 10px;
+    font-family: Poppins;
 }
 
 .BasicInfo_nameInput {
@@ -252,7 +256,8 @@
 }
 
 .save_and_next_button {
-    background-color: #000000;
+    background-color: #16110F;
+    font-family: Poppins;
     color: white;
     border-radius: 20px;
     text-align: center;
