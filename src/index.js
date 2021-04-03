@@ -5,16 +5,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import InputGroup from 'react-bootstrap/InputGroup';
 import {BrowserRouter,  Route, Switch} from 'react-router-dom';
 
-import './config/css/header.css';
 import EditorScreen from './screens/EditorScreen';
 import EditorPropChoose from './components/EditorPropChoose';
 import ProblemStatement from './components/ProblemStatement';
 
+import authStorage from './auth/storage';
+import AuthContext from './auth/context';
 
+import App from './App';
 
 ReactDOM.render(
-
-  <EditorScreen />,
+  <EditorScreen/>
+  ,
   
   document.getElementById('root')
 );

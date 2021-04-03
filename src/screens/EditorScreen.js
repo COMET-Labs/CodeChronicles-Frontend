@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,6 +13,9 @@ import ProblemStatement from '../components/ProblemStatement';
 import Output from '../components/Output';
 import UserInput from '../components/UserInput';
 
+import authStorage from '../auth/storage';
+import AuthContext from '../auth/context';
+
 
 function EditorScreen(props) {
 
@@ -21,8 +24,19 @@ function EditorScreen(props) {
     const [theme, setTheme]= useState("Dark");
     const [screen, setScreen] = useState("submit");
 
+    const [user, setUser] = useState();
+    const restoreUser = ()=>{
+        const user = authStorage.getUser();
+        if(user){
+        setUser(user);
+        }
+    };
+    useEffect(()=>{
+        restoreUser();
+    });
+
     return (
-        <>
+        <AuthContext.Provider value={{user, setUser}}>
         <Header />
         <Container fluid className="mt-1">
             <Row>
@@ -54,7 +68,7 @@ function EditorScreen(props) {
             </Row>
 
         </Container>
-        </>
+        </AuthContext.Provider>
 
     );
 }

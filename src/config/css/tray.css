@@ -1,5 +1,9 @@
-.cus-modal-header {
+.social-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.icon-button {
+  cursor: pointer;
 }
