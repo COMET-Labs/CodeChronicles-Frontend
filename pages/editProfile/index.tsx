@@ -1045,7 +1045,7 @@ export default function editProfile(){
                                         <Row>
                                         <Col xl={4} >
                                         
-                                        <select className={styles.socilaMedia_LinkInput} id="socialMediaNames"  onChange={handleChange}>
+                                        <select className={styles.socialMedia_LinkInput} id="socialMediaNames"  onChange={handleChange}>
                                         {socialMediaNames.map(index =>
                                             <option  value={index.value}>{index.name}</option>
                                         )};
@@ -1056,7 +1056,7 @@ export default function editProfile(){
                                             <Grid  container>
                                                 <br/>
                                                 <input
-                                                    className={styles.socilaMedia_LinkInput}
+                                                    className={styles.socialMedia_LinkInput}
                                                     placeholder="Enter Your Profile Link"
                                                     value={SocialMediaURL}
                                                     onChange={(e)=>{setSocialMediaURL(e.target.value)}}>

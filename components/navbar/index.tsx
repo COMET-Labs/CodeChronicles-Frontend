@@ -4,30 +4,22 @@ import  {Navbar,Nav} from 'react-bootstrap';
 function NavBar() {
   return (
     <Navbar className="navbar" expand="lg" >
+      <span className="{styles.festname}">CodeGala</span>
             <div className={`row order-lg-last order-sm-first ${styles.profile}`}>
               <div className={`col ${styles.first}`}>
                 <div className={`row ${styles.name}`}>
-                  <span className={styles.fname}>Shashi&nbsp;</span>
-                  <span className={styles.lname}>Shekhar</span>
+                  <span className={styles.fname}>Organise Codefest</span>
+                  <span className={styles.lname}>Sign In</span>
                 </div>
-                <div className="row">
-                <span className={styles.institute}>IIITDM Jabalpur</span>
-                </div>
-                </div>
-                <div className={`col ${styles.second}`}>
-                 <img src="https://media.beam.usnews.com/d1/d8/8501ba714a21aed9a7327e02ade1/180515-10thingselonmusk-editorial.jpg" className={styles.pic}/> 
                 </div>
                 </div>
            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="justify-content-center" style={{flex:1}}>
               <div className="row">
-               <Nav.Link href="#" className={styles.links}>Feed</Nav.Link>
-               <Nav.Link href="#" className={styles.links}>OS</Nav.Link>
-               <Nav.Link href="#" className={styles.links}>Startup</Nav.Link>
-               <Nav.Link href="#" className={styles.links}>Alumni Network</Nav.Link>
-               <Nav.Link href="#" className={styles.links}>Internship</Nav.Link>
-               <Nav.Link href="#" className={styles.links}>Events</Nav.Link>
+               <Nav.Link href="#" className={styles.links}>Codefests</Nav.Link>
+               <Nav.Link href="#" className={styles.links}>About</Nav.Link>
+               <Nav.Link href="#" className={styles.links}>Lorem</Nav.Link>
               </div>
               </Nav>
             </Navbar.Collapse>

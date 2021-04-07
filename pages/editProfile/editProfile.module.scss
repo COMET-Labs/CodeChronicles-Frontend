@@ -1,6 +1,5 @@
 .edit_profile_page {
-    background: url(backgroundimg2.jpeg);
-    background-color: rgb(217, 194, 174);
+    background-color: #ffffff;
     padding: 10px;
 }
 
@@ -22,16 +21,15 @@
 }
 
 .step_selected {
-    background: url(bgimg.jpeg);
-    background-color: rgb(217, 194, 174);
-    color: #070707;
-    border-left: 8px solid #000000;
+    background-color: #ffffff;
+    color: #767BFE;
+    border-left: 8px solid #767BFE;
     height: 40px;
     cursor: pointer;
 }
 
 .step_not_selected {
-    color: #16110F;
+    color:  #A3A2A2;
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
@@ -47,8 +45,7 @@
 }
 
 .step_content {
-    background: url(bgimg.jpeg);
-    background-color: rgb(242, 223, 192);
+    background-color: #ffffff;
     padding: 15px;
     border-radius: 0px 10px 10px 10px;
 }
@@ -70,12 +67,12 @@
 
 .BasicInfo_cameraIcon {
     position: absolute;
-    color: #000000;
+    color: #29AB87;
     left: 150px;
     bottom: 10px;
     background-color: white;
     margin-top: -15px;
-    box-shadow: 1px 1px 10px rgb(3, 3, 3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -95,13 +92,13 @@
 
 .enter_details_heading {
     font-size: 0.8rem;
-    color: rgb(0, 0, 0);
+    color: #8F8F8F;
     font-weight: 500;
 }
 
 .step_content_section_button {
     border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.07);
     float: right;
     width: 40px;
     height: 40px;
@@ -115,11 +112,11 @@
     margin-top: 5px;
     width: 30px;
     height: 30px;
-    color: #000000;
+    color: #29AB87;
     font-size: 1rem;
     font-weight: 700;
     border-radius: 50%;
-    border: 3px solid #000000;
+    border: 3px solid #29AB87;
 }
 
 .step_content_main {
@@ -140,11 +137,11 @@
 
 .camera_icon {
     position: absolute;
-    color: #000000;
+    color: #29AB87;
     right: -10px;
     background-color: white;
     margin-top: -15px;
-    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -159,7 +156,7 @@
 }
 
 .name_label {
-    color: #16110F;
+    color: #8F8F8F;
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 10px;
@@ -170,7 +167,7 @@
 .BasicInfo_nameInput {
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #DFDFDF;
     height: 50px;
     padding-left: 15px;
     width: 100%;
@@ -183,7 +180,7 @@
 .name_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #DFDFDF;
     height: 50px;
     padding-left: 15px;
     width: 90%;
@@ -191,7 +188,7 @@
 }
 
 .date_label {
-    color: rgb(0, 0, 0);
+    color: #8f8f8f;
     font-size: 1.3rem;
     font-weight: 600;
     margin-top: 30px;
@@ -200,7 +197,7 @@
 .description_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #DFDFDF;
     margin-top: 10px;
     width: 100%;
     max-width: 100%;
@@ -221,13 +218,13 @@
 }
 
 .presently_working_icon {
-    color: #000000;
+    color: #29AB87;
     margin-left: 20px;
 }
 
 .previous_button {
-    color: gray;
-    border: 1.75px solid gray;
+    color: #29AB87;
+    border: 1px solid #29AB87;
     border-radius: 20px;
     text-align: center;
     height: 50px;
@@ -240,7 +237,7 @@
 }
 
 .add_newProfile_button_text {
-    background-color: #0c0c0c;
+    background-color: #29AB87;
     color: white;
     border-radius: 6px;
     text-align: center;
@@ -256,7 +253,7 @@
 }
 
 .save_and_next_button {
-    background-color: #16110F;
+    background: #29AB87;
     font-family: Poppins;
     color: white;
     border-radius: 20px;
@@ -267,14 +264,13 @@
     font-size: 1.1rem;
     max-width: 250px;
     margin-left: 5px;
-    box-shadow: 3px 5px 12px rgb(3, 3, 3);
     cursor: pointer;
 }
 
-.socilaMedia_LinkInput {
+.socialMedia_LinkInput {
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #29AB87;
     height: 50px;
     padding-left: 15px;
     width: 80%;
@@ -286,7 +282,7 @@
 .link_input {
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #DFDFDF;
     height: 50px;
     padding-left: 15px;
     width: 90%;
@@ -308,7 +304,7 @@
     padding-left: 25px;
     padding-top: 20px;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px rgb(5, 5, 5);
+    box-shadow:  0px 3px 8px 1px rgba(0, 0, 0, 0.07);
 }
 
 .add_skills_button {
@@ -332,12 +328,12 @@
     font-size: 0.8rem;
     font-weight: bold;
     border-radius: 50%;
-    border: 3px solid #070707;
+    border: 3px solid #29AB87;
 }
 
 .skill_input {
     max-width: 100%;
-    border: 1px solid #070707;
+    border: 1px solid #29AB87;
     border-radius: 12.5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -348,7 +344,7 @@
 
 .skill_input:focus {
     outline: none;
-    border: 2px solid #070707;
+    border: 2px solid #29AB87;
 }
 
 .skill_name {
@@ -386,12 +382,12 @@
     padding-top: 5px;
     text-align: right;
     padding-right: 30px;
-    color: #793232;
+    color: #767BFE;
     cursor: pointer;
 }
 
 .join_icon {
-    color: #A52A2A;
+    color: #29AB87;
     margin-left: 20px;
 }
 
@@ -418,7 +414,4 @@
 }
 .input_image {
     border-radius:50%;
-}
-.previous_button {
-    color:black;
 }

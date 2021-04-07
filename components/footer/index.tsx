@@ -49,25 +49,6 @@ const Footer=()=> {
                     <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-linkedin`}></i></a>
                     <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-twitter`}></i></a>
                     </div>
-                    <div className={`${styles.icon_row} col-sm-12`}>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-facebook`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-instagram`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-linkedin`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-twitter`}></i></a>
-                    </div>
-                    <div className={`${styles.icon_row} col-sm-12`}>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-facebook`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-instagram`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-linkedin`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-twitter`}></i></a>
-                    </div>
-                    <div className={`${styles.icon_row} col-sm-12`}>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-facebook`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-instagram`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-linkedin`}></i></a>
-                    <a className={styles.socialicon} href="#"><i className={`${styles.fa} fa fa-twitter`}></i></a>
-                    </div>
-                    
                 </div>
             </div>
             <hr/>
